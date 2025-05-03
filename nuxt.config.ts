@@ -4,12 +4,10 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: [
-    '@nuxtjs/tailwindcss',
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
   app: {
     head: {
-      title: 'UtaraTech - Software Development Company',
+      title: 'UtahrapTech - Software Development Company',
       meta: [
         { name: 'description', content: 'We are a software development company specializing in building web applications, mobile apps, enterprise solutions, and SaaS solutions.' }
       ],
