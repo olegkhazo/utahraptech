@@ -107,14 +107,18 @@
             <span class="sr-only">LinkedIn</span>
             <span>in</span>
           </a>
-          <a
-            href="#"
+          <NuxtLink
+            href="mailto:o.zhuravko@gmail.com"
             target="_blank"
             class="text-gray-700 hover:text-primary-600 transition-colors duration-300"
           >
-            <span class="sr-only">GitHub</span>
-            <span class="border border-gray-700 px-1 text-xs">☐</span>
-          </a>
+            <NuxtImg
+              src="/black_envelope.svg"
+              alt="Email"
+              width="15"
+              height="15"
+            />
+          </NuxtLink>
         </div>
       </div>
     </div>
