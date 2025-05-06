@@ -2,18 +2,19 @@
   <section class="relative py-16 md:py-24 overflow-hidden">
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row">
-        <div class="md:w-1/2 md:pr-8 mb-10 md:mb-0">
+        <div class="md:w-1/2 mb-10 md:mb-0 md:py-11">
           <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            JUST MAKE YOUR BUSINESS POSITIVE
+            BUILD POWERFUL DIGITAL PRODUCTS FROM SCRATCH
           </h1>
           <p class="text-gray-600 text-lg mb-8 max-w-lg">
-            Our professional team is here to help you get your business online
-            right. We provide amazing websites, complex web systems, and mobile
-            apps from start to finish.
+            Our experienced team specializes in building custom web
+            applications, scalable SaaS solutions, and startup platforms from
+            the ground up — turning your ideas into production-ready digital
+            products.
           </p>
           <button
             @click="scrollToContact"
-            class="bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-8 rounded-md transition-all duration-300 transform hover:scale-105"
+            class="bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-8 rounded-md transition-all duration-300 transform"
           >
             Get in Touch
           </button>
@@ -25,24 +26,27 @@
                 viewBox="0 0 100 100"
                 class="w-full max-w-md mx-auto animate-spin-slow"
               >
+                <image
+                  href="/public/orange_circle.webp"
+                  x="45"
+                  y="35"
+                  width="35"
+                  height="35"
+                  clip-path="circle(50%)"
+                />
                 <path
                   id="curve"
                   fill="transparent"
-                  d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"
+                  d="M 50, 50 m -44.4, 0 a 44.4,44.4 0 1,1 88.8,0 a 44.4,44.4 0 1,1 -88.8,0"
                 />
                 <text>
-                  <textPath href="#curve" class="text-gray-300 text-sm">
-                    We create what you need with high quality • We create what
-                    you need with high quality •
+                  <textPath href="#curve" class="text-gray-300 text-[0.365rem]">
+                    We'll take your idea and turn it into a great real product.
+                    Just share what you need with us right now.
                   </textPath>
                 </text>
               </svg>
             </div>
-            <img
-              src="https://images.pexels.com/photos/7439141/pexels-photo-7439141.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Playful cat illustration"
-              class="w-64 h-64 object-contain absolute bottom-0 right-0 animate-float"
-            />
           </div>
         </div>
       </div>
