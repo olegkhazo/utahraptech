@@ -28,10 +28,10 @@
               >
                 <image
                   href="/public/orange_circle.webp"
-                  x="45"
-                  y="35"
-                  width="35"
-                  height="35"
+                  x="23"
+                  y="23"
+                  width="55"
+                  height="55"
                   clip-path="circle(50%)"
                 />
                 <path
