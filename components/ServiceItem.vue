@@ -1,13 +1,18 @@
 <template>
-  <div 
-    class="flex items-center py-3 px-4 transition-all duration-300 cursor-pointer hover:bg-white hover:shadow-md rounded-md"
+  <div
+    class="flex items-center py-3 px-4 transition-all duration-300 cursor-pointer hover:bg-white rounded-md"
     :class="{ 'bg-white shadow-md': active }"
     @click="$emit('click')"
   >
     <div class="mr-4">
       <slot name="icon">
         <div class="w-6 h-6 flex items-center justify-center text-gray-500">
-          <span>⬦</span>
+          <NuxtImg
+            src="/rhombus.png"
+            alt="Service Icon"
+            width="18"
+            height="18"
+          />
         </div>
       </slot>
     </div>
@@ -24,13 +29,13 @@
 defineProps({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   active: {
     type: Boolean,
-    default: false
-  }
+    default: false,
+  },
 });
 
-defineEmits(['click']);
+defineEmits(["click"]);
 </script>
